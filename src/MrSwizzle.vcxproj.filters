@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Resource Include="resources\MrSwizzle.res" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MrSwizzleApplication.cpp" />
+    <ClCompile Include="MrSwizzleApplicationHUD.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources\resource.h" />
+    <ClInclude Include="MrSwizzleApplication.h" />
+    <ClInclude Include="MrSwizzleApplicationHUD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\MrSwizzle.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+    <None Include="resources\small.ico" />
+    <None Include="resources\windowIcon.ico" />
+  </ItemGroup>
+</Project>
