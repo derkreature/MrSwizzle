@@ -3,6 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MrSwizzle", "MrSwizzle.vcxproj", "{36868153-A7EE-4364-94DC-B7974B36DC81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1BED1B2-D81C-4660-AF94-D9539FA4DC88} = {B1BED1B2-D81C-4660-AF94-D9539FA4DC88}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "critter", "critter\critter.vcxproj", "{B1BED1B2-D81C-4660-AF94-D9539FA4DC88}"
 EndProject
