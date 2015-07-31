@@ -24,7 +24,7 @@ https://github.com/derkreature/
 http://www.derkreature.com/
 
 Quick download link:
-https://github.com/derkreature/Mr.Swizzle/archive/master.zip
+https://github.com/derkreature/MrSwizzle/archive/master.zip
 
 Using MrSwizzle on the command line
 --------------
