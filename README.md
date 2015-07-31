@@ -6,8 +6,8 @@ This tool runs both as a headless commandline tool and interactive gui tool.
 I am interested in providing support for Unreal and Unity, but I don't use these engines myself.
 Please let me know if this is / would be useful to you and I am happy to add any required extra operations or pipeline additions.
 
-![MrSwizzleCover1](https://github.com/derkreature/IBLBaker/blob/master/images/screenshot0.jpg)
-![MrSwizzleCover2](https://github.com/derkreature/IBLBaker/blob/master/images/screenshot1.jpg)
+![MrSwizzleCover1](https://github.com/derkreature/MrSwizzle/blob/master/images/screenshot0.jpg)
+![MrSwizzleCover2](https://github.com/derkreature/MrSwizzle/blob/master/images/screenshot1.jpg)
 
 
 About
