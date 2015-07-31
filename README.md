@@ -1,10 +1,7 @@
 MrSwizzle
 --------------
 
-I am still writing documentation for this project.
-This is not really fit to be public, but I'd like some people to play around with it... Will most likely not work for some workflows until after Siggraph.
-
-MrSwizzle is a quick tool that was started to quickly convert gametextures.com and other formats to a common PBR representation.
+MrSwizzle is a small command line and gui tool that was started to quickly convert gametextures.com and other formats to a common PBR representation.
 This tool runs both as a headless commandline tool and interactive gui tool.
 I am interested in providing support for Unreal and Unity, but I don't use these engines myself.
 Please let me know if this is / would be useful to you and I am happy to add any required extra operations or pipeline additions.
