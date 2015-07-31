@@ -1,8 +1,12 @@
 MrSwizzle
 --------------
 
-MrSwizzle is a small command line and gui tool that was started to quickly convert gametextures.com and other formats to a common PBR representation.
+MrSwizzle is a small command line and gui tool that was created to quickly convert gametextures.com and arbitrary texture sets on disk to a common PBR representation.
 This tool runs both as a headless commandline tool and interactive gui tool.
+
+If you are interested in the image processing code, it can be found here:
+https://github.com/derkreature/critter/blob/master/swizzling/CtrImageFunctionNode.h
+
 I am interested in providing support for Unreal and Unity, but I don't use these engines myself.
 Please let me know if this is / would be useful to you and I am happy to add any required extra operations or pipeline additions.
 
