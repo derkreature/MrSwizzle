@@ -206,7 +206,7 @@ Options::Options()
     _sourceResolution = 3;
     _dstResolution = 3;
 
-    _gameTexturesArchive = "c:\\Tile_SpinSquares_PBR.zip";
+    _gameTexturesArchive = "data/textures/Brick_BrownLux_pbr.zip";
     _textureSetAlbedoPathName;
     _outputEnvFilePath;
     _outputAlbedoPBRPatternFilePath;
@@ -727,7 +727,7 @@ MrSwizzleApplication::parseOptions(int argc, char* argv[])
         commandLineOptions.add("headless", '\0', "Run Headless");
     
         // Check for input type.
-        commandLineOptions.add<std::string>("gtarchive", '\0', "Specify GameTextures Archive", false, "c:/Metal_GalvanizedTrashy_PBR.zip");
+        commandLineOptions.add<std::string>("gtarchive", '\0', "Specify GameTextures Archive", false, "data/textures/Brick_BrownLux_pbr.zip");
         commandLineOptions.add<std::string>("dirts", '\0', "Specify Texture Set From Albedo PathFileName", false, "");
         commandLineOptions.add<std::string>("envsrc", '\0', "Environment Source Map", false, "");
         commandLineOptions.add<std::string>("envout", '\0', "Environment Output Path and FileName", false, "");
