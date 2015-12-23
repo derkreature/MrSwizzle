@@ -27,6 +27,16 @@ http://www.derkreature.com/
 Quick download link:
 https://github.com/derkreature/MrSwizzle/archive/master.zip
 
+Building 
+--------------
+    1.) Run "MrSwizzle.bat" in the source root directory. This will run CMake and automatically setup all dependencies.
+        IblBaker.bat automatically configures for Visual Studio 2015 x64 and builds with the community edition. 
+        You should not need to change any of the CMake config options.
+    2.) The output of IblBaker.bat is "Build64" in the root directory. 
+    3.) Open Build64/MrSizzle.sln 
+    4.) Set startup project to MrSwizzle. There is no elegant way to do this in CMake.
+    5.) Build and run.
+
 Using MrSwizzle on the command line
 --------------
 
