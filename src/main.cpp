@@ -40,6 +40,7 @@
 //------------------------------------------------------------------------------------//
 
 #include <MrSwizzleApplication.h>
+
 #include <direct.h>
 
 namespace
@@ -67,8 +68,20 @@ setupStartupPath()
     std::string modulePathName(modulePathFileName.begin(), modulePathFileName.begin() + modulePathFileName.rfind(L'\\'));
     LOG("Mr.Swizzle: " << modulePathName);
 
-    std::string sandboxPathName(modulePathName.begin(), modulePathName.begin()+modulePathName.rfind("\\"));
+    bool foundDataRoot = false;
+    std::string sandboxPathName = modulePathName;
+    while (!foundDataRoot)
+    {
+        sandboxPathName = std::string(sandboxPathName.begin(), sandboxPathName.begin() + sandboxPathName.rfind("\\"));
+
+        struct stat finfo;
+        int statResult = stat((sandboxPathName + std::string("/data/iblBakerConfig.xml")).c_str(), &finfo);
+        if (statResult == 0)
+            foundDataRoot = true;        
+    }
+
     _chdir(sandboxPathName.c_str());
+
 }
 }
 
