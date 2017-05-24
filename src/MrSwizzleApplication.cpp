@@ -1538,8 +1538,7 @@ MrSwizzleApplication::saveImages(const std::string& filePathName, bool gameOnly)
         size_t extension = filePathName.rfind(".");
         if (extension == std::string::npos)
         {
-            LOG_CRITICAL("Failed to find file extension in " << filePathName);
-            return false;
+            extension = filePathName.size();
         }
 
         std::string pathName = filePathName.substr(0, pathEnd+1);
